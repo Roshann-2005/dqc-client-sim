@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build:notebook": "uvx marimo export html-wasm ../dqc-workshop-notebook/tutorial.py -o public/notebook --mode run --show-code --force"
+    "build:notebook": "uvx marimo export html-wasm ../dqc-workshop-notebook/tutorial_wasm.py -o public/notebook --mode run --show-code --force"
   },
   "dependencies": {
     "react": "^19.2.6",
