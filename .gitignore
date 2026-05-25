@@ -12,9 +12,6 @@ dist
 dist-ssr
 *.local
 
-# Generated notebook WASM export (run `npm run build:notebook` to regenerate)
-public/notebook/
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
